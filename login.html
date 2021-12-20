@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AutoCommunity</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    
+    <div class="container__log">
+        <h1 class="label__log">User Login</h1>
+        <form class="login__form" action="indexx.html" method="post" name="form" onsubmit="return 
+            validated()">
+            <div class="font">Email or Phone</div>
+            <input autocoplete="off" type="text" name="email">
+            <div id="email__error">Please fill up your Email ar Phone</div>
+            <div class="font font2">Password</div>
+            <input type="password" name="password">
+            <div id="pass__error">Please fill up your Password</div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="login.js"></script>
+    
+</body>
+</html>
